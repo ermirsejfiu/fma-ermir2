@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Hello Grid</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #A0E7C5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #F5F5DC;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px;
+            position: relative;
+        }
+        .container::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 100px;
+            height: 100px;
+            background-color: #A0E7C5;
+            border-radius: 50%;
+            z-index: -1;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: 100px;
+            height: 100px;
+            background-color: #A0E7C5;
+            border-radius: 50%;
+            z-index: -1;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h1>Hello Grid</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa assumenda maiores numquam dolore nostrum non quasi officia vel consequuntur, eaque libero laborum fugit molestias quae temporibus, commodi sapiente. Iste possimus dolores voluptates, velit dolor eius vero rem corrupti, a veniam beatae sit numquam aliquam officia soluta blanditiis provident alias. Exercitationem repellat animi magni. Qui repellat dolorem blanditiis modi perspiciatis ut accusantium dolore libero laborum inventore ab ullam optio quidem, nulla vero nam id praesentium velit nisi esse vitae earum aliquid. Repellat accusantium quo totam esse ipsam quisquam earum iste dignissimos aut. Nostrum quas pariatur cumque harum quod, non quis velit impedit qui dolores ipsum neque aliquid voluptas facere libero ipsam voluptatem dicta ipsa sit magni reprehenderit ullam. Laboriosam a beatae ut, unde in, eveniet rem similique quia doloremque id deserunt harum nemo eum ullam debitis. Esse, totam! Cumque autem, explicabo sequi eos voluptate deserunt animi ratione in, eveniet vero fugit?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae quasi esse itaque minus eos, eligendi alias eum magni voluptatibus enim distinctio incidunt, commodi molestias hic aliquam? Hic perferendis obcaecati laudantium asperiores mollitia voluptates dolore libero quasi repudiandae, velit voluptate amet adipisci commodi eius maxime. Cum corporis porro exercitationem dolor quasi atque nobis possimus error, sapiente vitae perspiciatis at voluptatem alias veritatis asperiores doloremque. Quisquam quod corporis praesentium eligendi veniam, molestiae cupiditate ipsa repudiandae quis labore, impedit iusto repellat ipsum accusantium modi non rem dolor voluptate sapiente suscipit quae. Nemo voluptas consectetur temporibus, cumque voluptatum. Quisquam, doloremque. Quisquam, doloremque.</p>
+    </div>
+</body>
+</html>

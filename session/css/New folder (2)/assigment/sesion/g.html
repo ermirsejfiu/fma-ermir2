@@ -1,0 +1,158 @@
+<html>
+ <head>
+  <title>
+   Sample Blog
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: #f5f5f5;
+        }
+        .sidebar {
+            background-color: #3a4a5a;
+            color: white;
+            width: 250px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .sidebar h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .sidebar p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .sidebar button {
+            background-color: #4a5a6a;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+        }
+        .post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post h2 {
+            font-size: 24px;
+            margin: 0 0 10px 0;
+        }
+        .post p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .post .meta {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .post .meta a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .post .meta a:hover {
+            text-decoration: underline;
+        }
+        .post .tags {
+            display: inline-block;
+            background-color: #e0e0e0;
+            color: #333;
+            padding: 2px 5px;
+            border-radius: 3px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+        .post .author-img {
+            float: right;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+        }
+        .section-title {
+            font-size: 14px;
+            color: #888;
+            text-transform: uppercase;
+            margin: 20px 0 10px 0;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="sidebar">
+   <h1>
+    A SAMPLE BLOG
+   </h1>
+   <p>
+    Lorem Ipsum dolor
+   </p>
+   <button>
+    LOG IN
+   </button>
+  </div>
+  <div class="content">
+   <div class="section-title">
+    Pinned Post
+   </div>
+   <div class="post">
+    <h2>
+     A pinned post
+    </h2>
+    <div class="meta">
+     By
+     <a href="#">
+      John Doe
+     </a>
+     under
+     <span class="tags">
+      CSS
+     </span>
+     <span class="tags">
+      HTML
+     </span>
+    </div>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+    <img alt="Author's profile picture" class="author-img" height="50" src="https://placehold.co/50x50" width="50"/>
+   </div>
+   <div class="section-title">
+    Recent Posts
+   </div>
+   <div class="post">
+    <h2>
+     A recent post
+    </h2>
+    <div class="meta">
+     By
+     <a href="#">
+      Rocky Balboa
+     </a>
+     under
+     <span class="tags">
+      JavaScript
+     </span>
+    </div>
+    <p>
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    </p>
+    <img alt="Author's profile picture" class="author-img" height="50" src="https://placehold.co/50x50" width="50"/>
+   </div>
+  </div>
+ </body>
+</html>
